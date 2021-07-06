@@ -1,3 +1,10 @@
+body {
+   display: flex; 
+}
+
 header {
     color: orange;
+    align-items: center;
+    justify-content: center;
+
 }
