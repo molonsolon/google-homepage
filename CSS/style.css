@@ -1,10 +1,103 @@
 body {
-   display: flex; 
+    font-family: sans-serif;
+    font-size: 10px;
 }
 
-header {
-    color: orange;
-    align-items: center;
-    justify-content: center;
+nav {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 50px auto 50px 50px 70px 90px;
+    padding: 25px;
+    font-size: 1.2em;
+    
+}
 
+#app-icon {
+    position: relative;
+    bottom: 6px;
+    left: 8px;
+}
+#signin {
+    position: relative;
+    right: 15px;
+    height: 30px;
+    bottom: 10px;
+    width: 70px;
+    color: white;
+    background-color: rgb(69,132,241);
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 110px;
+}
+
+
+
+#search.container {
+    display: flex;
+    position: relative;
+}
+
+#search {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 26px;
+    height: 45px;
+}
+
+#searchbar {
+   position: relative;
+    margin: auto;
+   width: 480px;
+}
+
+#mic-icon {
+    height: 20px;
+}
+
+#submit {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 8px;
+
+}
+
+#lucky {
+    position: relative; 
+    margin: auto;
+    margin-left: 8px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    bottom: 0;
+    
+    grid-template-rows: 15px;
+    grid-template-columns: 100px 100px auto 100px 100px 100px;
+    align-items: baseline;
+    justify-items: left;
+    font-size: 1.2em;
+    
 }
